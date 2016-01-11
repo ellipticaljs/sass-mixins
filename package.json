@@ -1,0 +1,14 @@
+{
+  "name": "sass-mixins",
+  "description": "Sass utility mixins",
+  "version": "1.0.1",
+  "author": "S. Francis",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ellipticaljs/sass-mixins.git"
+  },
+  "devDependencies": {
+    "sassdoc": "^2.1.15"
+  }
+}
