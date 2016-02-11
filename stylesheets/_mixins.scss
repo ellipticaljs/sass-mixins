@@ -98,3 +98,14 @@
   $icon:unquote($icon);
   content:unquote("\"#{$icon}\"");
 }
+
+@mixin horizontal-divider($background:#fff,$color:#ddd, $left-percentage:28%,$right-percentage:75%){
+  width:100%;
+  height:1px;
+  background: linear-gradient(to right, $background 0%,$color $left-percentage,$color $right-percentage,$background 100%);
+}
+
+@mixin vertical-divider($background:#fff,$color:#ddd, $top-percentage:28%,$bottom-percentage:75%){
+  width:1px;
+  background: linear-gradient(to bottom, $background 0%,$color $top-percentage,$color $bottom-percentage,$background 100%);
+}
